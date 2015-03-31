@@ -4,11 +4,13 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -65,6 +67,7 @@ public class MainActivity extends ActionBarActivity {
 
     public static class ActiveTaskFragment extends Fragment {
 
+        final String LOG_TAG = this.getClass().getSimpleName();
         AnimationDrawable pauseAnimation;
 
         public ActiveTaskFragment() {
@@ -74,19 +77,18 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_active_task, container, false);
-/*
-            ImageButton pauseButton = (ImageButton) getActivity().findViewById(R.id.button_pause);
+            ImageView pauseButton = (ImageView) rootView.findViewById(R.id.button_pause);
             pauseButton.setBackgroundResource(R.drawable.on_pause_animation);
             pauseAnimation = (AnimationDrawable) pauseButton.getBackground();
             pauseButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     pauseAnimation.start();
-                    while(pauseAnimation.isRunning());
+                    Log.v(LOG_TAG, "Initiating pausebutton");
                     }
                 });
 
-                */
+
 
             return rootView;
         }
