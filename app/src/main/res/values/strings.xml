@@ -5,4 +5,11 @@
     <string name="hello_world">Awesome HanaTask app for Gustavs pleasure</string>
     <string name="action_settings">Settings</string>
 
+    <string name="pause_fragment_text">Tap to get things done</string>
+
+    <!-- Placeholder strings for testing -->
+
+    <string name="task_placeholder">Task</string>
+    <string name="group_placeholder">Group</string>
+
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_progress_animation"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/on_pause1" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause2" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause3" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause4" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause5" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause6" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause7" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause8" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause9" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause10" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause11" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause12" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause13" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause14" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause15" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause16" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause17" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause18" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause19" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause20" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause21" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause22" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause23" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause24" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause25" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause26" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause27" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause28" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause29" android:duration="20"></item>
+    <item android:drawable="@drawable/on_pause30" android:duration="20"></item>
+
+</animation-list>
+
