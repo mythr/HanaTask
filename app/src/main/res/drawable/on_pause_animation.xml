@@ -3,11 +3,5 @@
     android:id="@+id/task_progress_animation"
     android:oneshot="true">
 
-    <item android:drawable="@drawable/on_pause1" android:duration="20"></item>
-    <item android:drawable="@drawable/on_pause2" android:duration="20"></item>
-    <item android:drawable="@drawable/on_pause3" android:duration="20"></item>
-    <item android:drawable="@drawable/on_pause4" android:duration="20"></item>
-
-
 </animation-list>
 

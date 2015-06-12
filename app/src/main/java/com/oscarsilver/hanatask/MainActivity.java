@@ -77,7 +77,7 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_active_task, container, false);
-            ImageView pauseButton = (ImageView) rootView.findViewById(R.id.button_pause);
+            ImageView pauseButton = (ImageView) rootView.findViewById(R.id.pause_button);
             pauseButton.setBackgroundResource(R.drawable.on_pause_animation);
             pauseAnimation = (AnimationDrawable) pauseButton.getBackground();
             pauseButton.setOnClickListener(new View.OnClickListener() {
